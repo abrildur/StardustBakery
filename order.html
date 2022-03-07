@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css">
+    <link rel="stylesheet" href="interesting-files/css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="./interesting-files/images/littlebu.png">
+    <title>Your Name - Portfolio</title>
+  </head>
+  <body id="body">
+    <div class="uk-section-default uk-background-blend-darken welcome uk-background-fixed uk-background-cover " id="Inicio">
+        <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+            <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <img src="./interesting-files/images/logo.png" alt="logo" style="max-width: 20%;"/>
+                    </ul>
+                </div>
+                  <div class="uk-navbar-right ">
+                          <ul class="uk-navbar-nav">
+                             <li class="uk-active"><a class="bar-menu" href="./index.html">Home</a></li>
+                              <li class="uk-active"><a class="bar-menu" href="./order.html" style="text-align: center;">Order here</a></li>
+                          </ul>
+                  </div>
+            </nav>
+        </div>
+
+        <div class=" uk-text-center ">
+            <div class="uk-child-width-expand@s" style="margin-top: 1%;" uk-grid>
+                  <div> 
+                        <img src="./interesting-files/images/cake.png" alt="imagen de un pastel"/>
+                  </div>
+                <div style="margin-right: 5%;"> 
+                    <form>
+                        <fieldset class="uk-fieldset">
+                            <legend class="uk-legend" style="color: black;">Order here</legend>
+                            <div class="uk-margin">
+                                <input class="uk-input" type="text" placeholder="Full Name">
+                                <input class="uk-input" type="tel" placeholder="Cellphone number">
+                                <input class="uk-input" type="text" placeholder="Date to deliver">
+                            </div>
+                            <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid" style="color: black;">
+                                <label><input class="uk-radio" type="radio" name="radio2" checked> Vanilla</label>
+                                <label><input class="uk-radio" type="radio" name="radio2">Chocolate</label>
+                                <label><input class="uk-radio" type="radio" name="radio2">Red Velvet</label>
+
+                            </div>
+
+                            <div class="uk-margin">
+                                <p>Cake Size</p>
+                                <select class="uk-select">
+                                    <option>10 Persons</option>
+                                    <option>20 Persons</option>
+                                </select>
+                            </div>
+                    
+                            <div class="uk-margin">
+                                <textarea class="uk-textarea" rows="5" placeholder="Your cake's message here"></textarea>
+                            </div>
+                            <!--
+                            <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                                <label><input class="uk-checkbox" type="checkbox" checked> A</label>
+                                <label><input class="uk-checkbox" type="checkbox"> B</label>
+                            </div>-->
+                            <button>Send</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</html>
